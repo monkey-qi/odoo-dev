@@ -31,21 +31,21 @@ class TodoTask(models.Model):
         dones.write({'active': False})
         return True
 
-        # 判断用户属于哪一个等级
-        # @api.model
-        # def first(self):
-        #     pass
-        # 用户为等级一
-        # 将first的readonly改为0，则用户只能编辑等级一的审批选项，其他选项处于灰色不可编辑状态
+    # 判断用户属于哪一个等级
+    # @api.model
+    # def first(self):
+    #     pass
+    # 用户为等级一
+    # 将first的readonly改为0，则用户只能编辑等级一的审批选项，其他选项处于灰色不可编辑状态
 
-        # @api.model
-        # def first(self):
-        #     pass
-        # 用户为等级二
-        # 将second的readonly改为0，则用户只能编辑等级二的审批选项，其他选项处于灰色不可编辑状态
+    # @api.model
+    # def first(self):
+    #     pass
+    # 用户为等级二
+    # 将second的readonly改为0，则用户只能编辑等级二的审批选项，其他选项处于灰色不可编辑状态
 
-        # @api.model
-        # def first(self):
-        #     pass
-        # 用户为等级二
-        # 将second的readonly改为0，则用户只能编辑等级二的审批选项，其他选项处于灰色不可编辑状态
+    # @api.model
+    # def first(self):
+    #     pass
+    # 用户为等级二
+    # 将second的readonly改为0，则用户只能编辑等级二的审批选项，其他选项处于灰色不可编辑状态
